@@ -12,6 +12,22 @@ import { IonicModule } from '@ionic/angular';
 })
 export class HomePage {
 
+  urlTikTok = 'https://www.tiktok.com/@polivalentereceitas?_t=8gOzc6KQopq&_r=1';
+  urlInstagram = 'https://instagram.com/polivalentereceitas?igshid=MzRlODBiNWFlZA== ';
+  urlYoutube = 'https://www.youtube.com/@thiaguinhocomth';
+  abrirTikTok() {
+    window.open(this.urlTikTok, '_blank');
+  }
+  
+  abrirInstagram() {
+    window.open(this.urlInstagram, '_blank');
+  }
+  
+  abrirYoutube() {
+    window.open(this.urlYoutube, '_blank');
+  }
+  
+
   isModalOpen = false;
 
   receita_selecionada: any;

@@ -289,86 +289,6 @@ ion-button:hover + #acucar{
   }
   
 
-
-
-
-
-
-//  FOOTER
-
-  #subbanner{
-    background-color: #C294F8;
-    background:#C294F8;
-    color:#C294F8;
-    height: 15vh;
-    width:auto;
-    margin-top: 2%;
-  }
-
-  #colunasfooter{
-    height: auto;
-  }
-
-  ion-title{
-    color:black;
-    width: 200px;
-  }
-
-  #logofooter{
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    transition: 0.3s;
-  }
-  #logofooter:hover {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-
-  }
-
-  #titulofooter{
-    width:auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color:#473BA3;
-    font-weight: bold;
-    font-size: 25px;
-    margin-top:10px;
-  }
-
-  #redesfooter{
-    width:auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color:#473BA3;
-    font-weight: bold;
-    font-size: 25px;
-    margin-top:10px;
-  }
-
-  #iconesredes{
-    height:60px;
-    width:60px;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    transition: 0.3s;
-  }
-  #iconesredes:hover {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-
-  }
-
-
-
-
-
-
   
 
   #pag{
@@ -396,105 +316,6 @@ ion-button:hover + #acucar{
     color: black;
     font-weight: bold;
   }
-
-  //carousel 
-
-#caro{
-  // justify-content: center;
-  // align-items: center;
-  // width:70vw;
-  // display: flex;
-  margin: 1%;
-  height: 20vh;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-.wrapper{
-  width:90%;
-  max-width: 90%;
-  justify-content: center;
-  align-items: center;
- 
-    // position: relative;
-}
-
-.wrapper i{
-  //  width:5%;
-  //  height: auto;
-  // //  top: 50%;
-  //  background: #fff;
-   cursor: pointer;
-   position: absolute;
-  //  font-size: 1.3rem;
-  //  text-align: center;
-   
-   color: rgb(43, 20, 65);
-}
-
-.wrapper i:hover{
-    background: #d5b2e4;
-}
-
-.wrapper i:first-child{
-    left: -23px;
-}
-
-.wrapper i:last-child{
-    right: -23px;
-}
-
-.wrapper .carousel{
-    white-space: nowrap;
-    font-size: 0px;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-
-.carousel .dragging{
-    cursor: grab;
-}
-
-.carousel .dragging img{
-    pointer-events: none;
-}
-
-.carousel img{
-    height: 250px;
-    width: calc(100% / 3);
-    object-fit: cover;
-    padding: 4px;
-    margin-left: 14px;
-}
-
-.carousel img:first-child{
-    margin-left: 0px;
-}
-
-@media screen and (max-width:900px) {
-    .carousel img{
-        width: calc(100% / 2);
-    }
-}
-
-@media screen and (max-width:550px) {
-    .carousel img{
-        width: 100%;
-    }
-}
-
-#left{
-  width:5%;
-  height: auto;
-}
-
-#right{
-  width:5%;
-  height: auto;
-}
-
-
 
 
 
@@ -534,11 +355,6 @@ color:#473BA3
 
 .restri{
   height:100%;
-  // display:grid;
-  // grid-template-columns: 50% 50%;
-  // grid-row: auto auto;
-  // grid-column-gap: 5%;
-  // grid-row-gap: 5%;
 }
 .iconsrestr{
   height:40%;
@@ -549,30 +365,80 @@ color:#473BA3
 .restri{
   margin:5%;
 }
-// #restri #gluten{
-  
-//   margin:5%;
-//   float:left;
-// }
-// #restri #lactose{
-  
-//   margin:5%;
-//   float:right;
-// }
-// #restri #acucar{
-  
-//   margin:5%;
-//   float:left;
-//   justify-content: first baseline;
-// }
-// #restri #carboidrato{
-  
-//   margin:5%;
-//   float:right;
-//   justify-content: last baseline;
-// }
 
 h4{
   color: black;
   font-size: 20px;
+}
+
+
+
+//  FOOTER
+
+#subbanner{
+  background-color: #C294F8;
+  background:#C294F8;
+  color:#C294F8;
+  height: 25vh;
+  width:auto;
+  margin-top: 2%;
+}
+
+#colunasfooter{
+  height: auto;
+}
+
+ion-title{
+  color:black;
+  width: 200px;
+}
+
+#logofooter{
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: 0.3s;
+}
+#logofooter:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+#titulofooter{
+  width:auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:#473BA3;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top:10px;
+}
+
+#redesfooter{
+  width:auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:#473BA3;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top:10px;
+}
+
+.iconesredes{
+  height:60px;
+  width:60px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: 0.3s;
+}
+.iconesredes:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
 }

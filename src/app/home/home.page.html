@@ -64,67 +64,6 @@
       </ion-row>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-        <!-- DIVIDER -->
-                <!-- <ion-row class="align-items-center" id="espacamento">
-                  <ion-col></ion-col>
-                  <ion-col size="3" id="divider"></ion-col>
-                  <ion-col size="3" id="destaques">Destaques da semana</ion-col>
-                  <ion-col size="3" id="divider"></ion-col>
-                  <ion-col></ion-col>
-                </ion-row> -->
-<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-                <!-- CARD -->
-                        <!-- <ion-row class="ion-align-items-center ion-justify-content-center" id="caro"> -->
-
-                          
-                          <!-- <ion-col size="2"> </ion-col>
-                                    <ion-col size="8" >
-                                <div class="wrapper">
-                                  <i id="left" class="fa-solid fa-angle-left"></i> 
-                                    <div class="carousel">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-                                        <img src="https://images.pexels.com/photos/14130600/pexels-photo-14130600.jpeg" alt="img" draggable="false">
-
-                                        
-                                    </div>
-                                    <i id="right" class="fa-solid fa-angle-right"></i> 
-                                </div>
-                                  </ion-col>
-                         <ion-col size="2"> </ion-col> -->
-                      <!-- </ion-row> -->
-    
-
-
- 
-
-
                 <!-- DIVIDER -->
                 <ion-row class="align-items-center" id="espacamento">
                   <ion-col></ion-col>
@@ -166,8 +105,6 @@
                     </ng-template>
                   </ion-modal>
 
-  <h2>ffffffff</h2>
-  
                
                 </div>
               </ion-col>
@@ -248,8 +185,10 @@
 
                                         <ion-col size="4" id="colunasfooter">
                                         <ion-title id="redesfooter">Redes Sociais</ion-title>
-                                        <ion-icon name="logo-tiktok" id="iconesredes"></ion-icon> 
-                                        <ion-icon name="logo-instagram" id="iconesredes"></ion-icon>
+                                        <ion-icon name="logo-tiktok" class="iconesredes" id="iconestiktok" (click)="abrirTikTok()"></ion-icon>
+                                        <ion-icon name="logo-instagram" class="iconesredes" id="iconestiktok" (click)="abrirInstagram()"></ion-icon>
+                                        <ion-icon name="logo-youtube" class="iconesredes" id="iconesyoutube" (click)="abrirYoutube()"></ion-icon>
+
                                         </ion-col> 
 
 
@@ -263,7 +202,7 @@
 
                                         <ion-col size="4" id="colunasfooter">
                                         <ion-title id="titulofooter">Envie-nos sua receita!</ion-title>
-                                        <ion-icon name="mail-outline" id="iconesredes"></ion-icon>
+                                        <ion-icon name="mail-outline" class="iconesredes"></ion-icon>
                                         </ion-col> 
 
                           
