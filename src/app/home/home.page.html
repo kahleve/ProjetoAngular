@@ -81,32 +81,17 @@
                     <ion-col size="2"></ion-col>
                     <ion-col size="6">
                 <div class="imagens">
-
-                  <ng-container *ngFor="let receita of this.receitas">
-                    <img src="{{receita.src }}" (click)="setOpen(true, receita)" expand="block" class="imgrec">
-                  </ng-container>
-
-                  <ion-modal [isOpen]="isModalOpen" (willDismiss)="onWillDismiss($event)">
-                    <ng-template>                         
-                          <ion-item button="true" detail="false" (click)="setOpen(false, null)" class="cardzin" lines="none" routerLink="/receita">
-                          <img src="{{this.receita_selecionada.src}}" class="imgrec">
-                          <ion-col size="7">
-                            <h5 class="nomerec">{{this.receita_selecionada.nomerec}}</h5>
-                            <h4>{{this.receita_selecionada.descricao}}</h4>
-                          </ion-col>
-                          <ion-col size="2" class="colcard">
-                            <div class="restri"> 
-                            <ng-container *ngFor="let botao of this.receita_selecionada.restricoes">
-                              <img src="{{ botao }}" class="iconsrestr">
-                            </ng-container>
-                            </div>
-                          </ion-col>
-                          </ion-item>
-                    </ng-template>
-                  </ion-modal>
-
-               
+                    <img src="../../assets/brownie.jpg" expand="block" class="imgrec" routerLink="/receitabrownie">
+                    <img src="../../assets/sorvete.jpg" expand="block" class="imgrec" routerLink="/receitasorvete">
+                    <img src="../../assets/tortasalgada.jpg" expand="block" class="imgrec" routerLink="/receitatorta">
+                    <img src="../../assets/bolomilho.jpg" expand="block" class="imgrec" routerLink="/receitabolomilho">
+                    <img src="https://images.pexels.com/photos/839220/pexels-photo-839220.jpeg?auto=compress&cs=tinysrgb&w=600" expand="block" class="imgrec" routerLink="/receitabolochoco">
+                    <img src="https://media.istockphoto.com/id/1316324247/pt/foto/chicken-pie.jpg?b=1&s=612x612&w=0&k=20&c=bsLmeG6SIHZb7rc0tN9hVJ6AUcyZDZmpqneyo5DF98Q=" expand="block" class="imgrec" routerLink="/receitatortafrango">
+                    <img src="https://media.istockphoto.com/id/1251402346/pt/foto/brazilian-snack-cheese-bread.jpg?b=1&s=612x612&w=0&k=20&c=EykCiEu4v5uKqh3gFk7MzN-t6xUxlwHAW4v6VB2385g=" expand="block" class="imgrec" routerLink="/receitapaoqueijo">
+                    <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" expand="block" class="imgrec" routerLink="/macarrao">
+                    <img src="https://images.pexels.com/photos/4242122/pexels-photo-4242122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" expand="block" class="imgrec" routerLink="/receitabolosemacucar">
                 </div>
+
               </ion-col>
                     <!-- FILTRAGEM -->
                     <ion-col>
@@ -154,6 +139,8 @@
 
 
 
+
+              
 
 
 

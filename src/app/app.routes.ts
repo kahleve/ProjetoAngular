@@ -42,4 +42,40 @@ export const routes: Routes = [
     path: 'lowcarb',
     loadComponent: () => import('./lowcarb/lowcarb.page').then( m => m.LowcarbPage)
   },
+  {
+    path: 'receitabrownie',
+    loadComponent: () => import('./receitabrownie/receitabrownie.page').then( m => m.ReceitabrowniePage)
+  },
+  {
+    path: 'receitasorvete',
+    loadComponent: () => import('./receitasorvete/receitasorvete.page').then( m => m.ReceitasorvetePage)
+  },
+  {
+    path: 'receitatorta',
+    loadComponent: () => import('./receitatorta/receitatorta.page').then( m => m.ReceitatortaPage)
+  },
+  {
+    path: 'receitabolomilho',
+    loadComponent: () => import('./receitabolomilho/receitabolomilho.page').then( m => m.ReceitabolomilhoPage)
+  },
+  {
+    path: 'receitabolosemacucar',
+    loadComponent: () => import('./receitabolosemacucar/receitabolosemacucar.page').then( m => m.ReceitabolosemacucarPage)
+  },
+  {
+    path: 'macarrao',
+    loadComponent: () => import('./macarrao/macarrao.page').then( m => m.MacarraoPage)
+  },
+  {
+    path: 'receitapaoqueijo',
+    loadComponent: () => import('./receitapaoqueijo/receitapaoqueijo.page').then( m => m.ReceitapaoqueijoPage)
+  },
+  {
+    path: 'receitatortafrango',
+    loadComponent: () => import('./receitatortafrango/receitatortafrango.page').then( m => m.ReceitatortafrangoPage)
+  },
+  {
+    path: 'receitabolochoco',
+    loadComponent: () => import('./receitabolochoco/receitabolochoco.page').then( m => m.ReceitabolochocoPage)
+  },
 ];

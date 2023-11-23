@@ -293,66 +293,72 @@ ion-button:hover + #acucar{
 
 
 
-                  //  FOOTER
+ //  FOOTER
 
-  #subbanner{
-    background-color: #C294F8;
-    background:#C294F8;
-    color:#C294F8;
-    height: 15vh;
-    width:auto;
-    margin-top: 2%;
-  }
+#subbanner{
+  background-color: #C294F8;
+  background:#C294F8;
+  color:#C294F8;
+  height: 25vh;
+  width:auto;
+  margin-top: 2%;
+}
 
-  #colunasfooter{
-    height: auto;
-  }
+#colunasfooter{
+  height: auto;
+}
 
-  ion-title{
-    color:black;
-    width: 200px;
-  }
+ion-title{
+  color:black;
+  width: 200px;
+}
 
-  #logofooter{
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    transition: 0.3s;
-  }
-  #logofooter:hover {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+#logofooter{
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: 0.3s;
+}
+#logofooter:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 
-  }
+}
 
-  #titulofooter{
-    width:auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color:#473BA3;
-    font-weight: bold;
-    font-size: 25px;
-    margin-top:10px;
-  }
+#titulofooter{
+  width:auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:#473BA3;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top:10px;
+}
 
-  #redesfooter{
-    width:auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color:#473BA3;
-    font-weight: bold;
-    font-size: 25px;
-    margin-top:10px;
-  }
+#redesfooter{
+  width:auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:#473BA3;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top:10px;
+}
 
-  #iconesredes{
-    height:60px;
-    width:60px;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    color:#473BA3;
-  }
+.iconesredes{
+  height:60px;
+  width:60px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: 0.3s;
+}
+.iconesredes:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
